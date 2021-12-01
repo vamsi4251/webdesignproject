@@ -1,0 +1,47 @@
+
+
+
+.cartbody{
+    border: black solid 3px;
+    padding: 2%;
+   margin:3% ;
+    font-size: 20px;
+   width: 250px;
+    background-color: pink;
+   
+}
+.cart{
+       display: flex;
+        flex-direction: column;
+        
+}
+button{
+    background-color: orange;
+    
+}
+s{
+    color: red;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cart{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+         
+    }
+    .cartbody{
+       
+        font-size: medium;
+        
+        margin: 20px auto;
+    }
+    button{
+        font-size: 30px;
+    }
+  
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+
+
+    
+}

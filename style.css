@@ -1,0 +1,10 @@
+h2{
+    background-color: black;
+    color: rgb(62, 179, 124);
+    font-size: large;
+}
+div{
+    background-color: darkgoldenrod;
+    color: gold;
+    font-style: italic;
+}
